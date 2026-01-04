@@ -1,0 +1,100 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+env/
+.venv/
+.conda/
+conda-env/
+
+# =========================
+# Gradio Specific
+# =========================
+.gradio/
+gradio_cached_examples/
+gradio_temp/
+flagged/
+logs/
+
+# =========================
+# Model & Data Files
+# (important for ML apps)
+# =========================
+models/
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.bin
+*.safetensors
+
+# =========================
+# Datasets / Uploads
+# =========================
+data/
+uploads/
+input/
+output/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Testing / Coverage
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# Node (if frontend bundled)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+voices/
+scripts/
+outputs/
